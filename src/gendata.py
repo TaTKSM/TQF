@@ -114,7 +114,7 @@ def create_character_data(char: str) -> np.ndarray:
     img = Image.new("L", img_size, "white")
     draw = ImageDraw.Draw(img)
 
-    # このファイル (gendata.py) と同じフォルダにある arial.ttf を使う
+    # you need arial.ttf (Arial font file)
     font_path = Path(__file__).with_name("arial.ttf")
     font = ImageFont.truetype(str(font_path), 120)
 
@@ -179,4 +179,5 @@ def create_c(size: int, seed: int, dim_used: int, dim_useless: int, char: str) -
     assert np.shape(xs) == (size, dim_used + dim_useless), np.shape(xs)
 
     return xs, dat
+
 
