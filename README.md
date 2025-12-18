@@ -10,7 +10,7 @@ distributions remains challenging for multivariate targets. We propose
 Tomographic Quantile Forests (TQF), a nonparametric, uncertainty-aware,
 tree-based regression model for multivariate targets. TQF learns conditional
 quantiles of directional projections $\mathbf{n}^{\top}\mathbf{y}$ as functions
-of the input $\mathbf{x}$ and the unit direction $\mathbf{n}$. At inference, it
+of the input $\mathbf{x}$ and the unit vector $\mathbf{n}$. At inference, it
 aggregates quantiles across many directions and reconstructs the multivariate
 conditional distribution by minimizing the sliced Wasserstein distance via an
 efficient alternating scheme with convex subproblems. Unlike classical
