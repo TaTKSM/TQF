@@ -1,5 +1,5 @@
-# Multivariate Uncertainty Quantification with Tomographic Quantile Forests
-
+# Multivariate Uncertainty Quantification with Tomographic Quantile Forests  
+[https://arxiv.org/abs/2512.16383](https://arxiv.org/abs/2512.16383)
 # Author
 Takuya Kanazawa  
 
@@ -20,5 +20,3 @@ covers all directions with a single model without imposing convexity
 restrictions. We evaluate TQF on synthetic and real-world datasets, and release
 the source code on GitHub.
 
-# Status
-Submitted to arXiv
