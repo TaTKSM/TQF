@@ -30,7 +30,7 @@ def pair_dist(ys: np.array, seed: int) -> np.ndarray:
 
 def trans(ys: np.ndarray, T_rff: int | str | np.ndarray | list | None, seed: int) -> tuple:
     """
-    Helper function for QRF++. Expand the dimension of a univariate target y to 2*T_rff + 1,
+    Helper function for QRF++. Expand the dimension of a univariate target y to 2 * T_rff + 1,
     where T_rff is the number of random Fourier features (RFF).
     """
     assert ys.ndim == 1
@@ -95,7 +95,7 @@ def train_regressor(X: np.ndarray, y: np.ndarray, seed: int, T_rff: int | str | 
 
 class TQF:
     """
-    Tomographic Quantile Forests.
+    Tomographic Quantile Forest.
     """
     def __init__(self, y_scaler_whole=StandardScaler(), y_scaler_1d=StandardScaler()):
 
