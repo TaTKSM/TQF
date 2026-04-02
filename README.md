@@ -1,5 +1,9 @@
 # Multivariate Uncertainty Quantification with Tomographic Quantile Forests  
-[https://arxiv.org/abs/2512.16383](https://arxiv.org/abs/2512.16383)
+[https://arxiv.org/abs/2512.16383](https://arxiv.org/abs/2512.16383)  
+Publication:  
+Math. Comput. Appl. 2026, 31(2), 53  
+[https://doi.org/10.3390/mca31020053](https://doi.org/10.3390/mca31020053)
+
 # Author
 Takuya Kanazawa  
 
